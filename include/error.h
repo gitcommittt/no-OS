@@ -51,4 +51,7 @@
 #define FAILURE		-1
 #endif
 
+#define RET_OK(x)	((x) == SUCCESS)
+#define RET_FAIL(x)	((x) != SUCCESS)
+
 #endif // ERROR_H_
